@@ -1,0 +1,34 @@
+body{
+    background-color:silver;
+}
+#contlogin{
+    border: solid 1px;
+    border-radius: 5px;
+    position:absolute;
+    height:20vh;
+    width: 16vw;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    margin:auto;
+    background-color:gray;
+}
+#frm1{
+    position: relative;
+    padding:3vw;
+}
+.txtlogin{
+    display:block;
+    width:auto;
+    padding:1vh;
+
+}
+#btnsubmit
+{
+    background-color:blue;
+    font-size:16px;
+    color:white;
+    border:solid 1px black;
+    float:right;
+}

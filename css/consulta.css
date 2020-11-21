@@ -1,0 +1,56 @@
+body{
+    background-color:silver;
+}
+.head-container
+{
+    display:block;
+    width: 100%;
+}
+h4
+{
+    display:inline;
+}
+#h4a
+{
+    padding-right:1vw;
+}
+#cont{
+    border: solid 1px;
+    border-radius: 5px;
+    position:absolute;
+    height:99vh;
+    width: 60vw;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    margin:auto;
+    background-color:gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#fr{
+    
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.form-control{
+    display:block;
+    padding:1vh;
+
+}
+#btnsubmit
+{
+    background-color:blue;
+    font-size:16px;
+    color:white;
+    border:solid 1px black;
+    float:right;
+}
+.card
+{
+    border-top:1px solid;
+    border-bottom:1px solid;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar saldos</title>
+    <link rel="stylesheet" href="../css/consulta.css">
+</head>
+<body>
+    <button onclick="location.replace('../vistaprop.html')">Atras</button>
+    <div class="head-container">
+    <div id="cont">
+        <div id="fr">
+            <div>
+
+                
+                <h2>Consulta de saldos</h2>
+            </div>
+            <div id="divmontos">
+                <h4 id="h4montos">Monto en deuda total:</h4><h4 id="h4a"></h4>
+                <h4 id="h4montos">Monto saldado total:</h4><h4 id="h4b"></h4>
+            </div>
+            
+            
+            
+            <label for="selector">Ver cobros y pagos individuales:</label>
+            <select name="" id="selector" class="form-control"></select>
+            <div>
+                <label for="datesel" class="form-control">Ver pagos por fechas:</label>
+                <input type="date" id="datesel" class="form-control">
+            </div>
+            <div id="divusuario"></div>
+            <h3>Cobros:</h3>
+            <div id="divcobros"></div>
+            <h3>Pagos:</h3>
+            <div id="divpagos"></div>
+            
+        </div>
+    </div>
+</div>
+    
+
+
+    <script src="../js/consulta.js"></script>
+</body>
+</html>
